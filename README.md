@@ -1,5 +1,6 @@
   
 
+
 ---
 
 # **🚀 Python Under the Hood: From Fundamentals to Mastery 🐍**  
@@ -151,10 +152,3 @@ Let’s **dive deep into Python together**! 🐍🔥
 
 ---
 
-## **✅ What's New?**  
-🚀 **This version keeps everything the same while updating the repository name to** `Python Under the Hood`.  
-🔹 Added **clickable links** for easy navigation.  
-🔹 Improved **structure and formatting** for better readability.  
-🔹 Enhanced **descriptions with bullet points & concise language**.  
-
----
