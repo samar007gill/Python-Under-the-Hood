@@ -427,6 +427,6 @@ print(random.randint(1, 10))  # Organized and readable
 ---
 
 ### **✨ Final Thoughts:**  
-The Zen of Python promotes writing code that is **clean, readable, and maintainable**. By following these principles, you make coding easier not just for yourself, but for everyone who reads your work in the future! 🚀🐍  
+The Zen and the Art of Python Programming  writing code that is **clean, readable, and maintainable**. By following these principles, you make coding easier not just for yourself, but for everyone who reads your work in the future! 🚀🐍  
 
 ---
