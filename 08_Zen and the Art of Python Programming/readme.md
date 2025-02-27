@@ -137,3 +137,155 @@ def check_numbers(numbers):
 ```  
 
 ---
+## **6️⃣ Clarity Over Compression 🏞️**  
+
+### **🔎 Why It Matters:**  
+Overly compressed code can be difficult to read and debug. Use spacing and line breaks to enhance readability.  
+
+❌ **Condensed & Hard to Read 😵‍💫**  
+```python
+x,y,z=1,2,3;x+=y+z
+```  
+
+✅ **Spaced Out & Readable 🌿**  
+```python
+x, y, z = 1, 2, 3  
+x += y + z  
+```  
+
+---
+
+## **7️⃣ Readability Reigns Supreme 📖👀**  
+
+### **🔎 Why It Matters:**  
+Code is read more often than it is written. Choose meaningful names and structure your code logically.  
+
+❌ **Vague & Unclear 🚨**  
+```python
+def f(s):
+    return len(s) > 5 and "@" in s
+```  
+
+✅ **Descriptive & Understandable ✨**  
+```python
+def is_valid_email(email):
+    return len(email) > 5 and "@" in email
+```  
+
+---
+
+## **8️⃣ Handle Special Cases Without Breaking Conventions 🔄**  
+
+### **🔎 Why It Matters:**  
+Even unique scenarios should be handled gracefully without creating inconsistencies in your code.  
+
+❌ **Rule-Breaking Handling ❌**  
+```python
+def divide(a, b):
+    return a / b if b else "Cannot divide by zero"
+```  
+
+✅ **Consistent & Logical Approach 🎯**  
+```python
+def divide(a, b):
+    if b == 0:
+        return None  # Handling edge case without breaking conventions
+    return a / b
+```  
+
+---
+
+## **9️⃣ Practicality Trumps Perfection ⚖️**  
+
+### **🔎 Why It Matters:**  
+Overly strict rules may not always be practical. A balanced approach is better than rigid perfectionism.  
+
+❌ **Strict & Unforgiving 😬**  
+```python
+def calculate_sum(data):
+    if isinstance(data, list):
+        return sum(data)
+    else:
+        raise TypeError("Data should be a list")
+```  
+
+✅ **Flexible & Fault-Tolerant 🤓**  
+```python
+def calculate_sum(data):
+    try:
+        return sum(data)
+    except TypeError:
+        return 0  # Gracefully handling unexpected input
+```  
+
+---
+
+## **🔟 Don’t Let Errors Slip Through the Cracks 🚨**  
+
+### **🔎 Why It Matters:**  
+Silently ignoring errors can cause hidden bugs. Always handle exceptions properly.  
+
+❌ **Error Silently Disappears (Dangerous!) 😶**  
+```python
+try:
+    result = 10 / 0
+except:
+    pass  # Ignored without explanation
+```  
+
+✅ **Explicit Error Handling (Best Practice) 🎯**  
+```python
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print(f"Error occurred: {e}")  # Error is logged properly
+```  
+
+---
+
+## **1️⃣1️⃣ Silence Errors, But With Intent 🤐**  
+
+### **🔎 Why It Matters:**  
+If an error is to be ignored, it should be done intentionally and explicitly, not by accident.  
+
+❌ **Ignoring Errors Without Explanation ⚠️**  
+```python
+try:
+    result = int("abc")
+except:
+    pass  # No context on why it's ignored
+```  
+
+✅ **Explicitly Handled Silence 🎯**  
+```python
+try:
+    result = int("abc")
+except ValueError:
+    result = None  # Intentionally returning None for invalid input
+```  
+
+---
+
+## **1️⃣2️⃣ Never Guess When in Doubt ❓🤯**  
+
+### **🔎 Why It Matters:**  
+Assumptions in programming often lead to unexpected errors. Clarify intent rather than making guesses.  
+
+❌ **Guessing Leads to Confusion 😨**  
+```python
+def parse(data):
+    if isinstance(data, str):
+        return data.split(",")
+    else:
+        return None  # Unclear handling of other types
+```  
+
+✅ **Be Explicit About Expectations ✅**  
+```python
+def parse(data):
+    if not isinstance(data, str):
+        raise ValueError("Expected a string")  
+    return data.split(",")
+```  
+
+---
