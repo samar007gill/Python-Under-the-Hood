@@ -36,7 +36,7 @@ This repository is structured into detailed sections, each focusing on different
 ⚫ Explore the internals of Python's CPython implementation.  
 ⚫ Understand bytecode, memory management, and optimizations.  
 
-### 8️⃣ [**The Zen of Python 🎭✨**](The-Zen-Of-Python)  
+### 8️⃣ [**Zen and the Art of Python Programming 🎭✨**](Zen and the Art of Python Programming)  
 ⚪ Discover Python’s guiding philosophy by Tim Peters.  
 ⚪ Learn the principles that make Python code clean and readable.  
 
