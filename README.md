@@ -1,5 +1,4 @@
 
-
 ---
 
 # 🏗️ **Python-Under-the-Hood** ⚙️🔎  
@@ -36,7 +35,7 @@ This repository is structured into detailed sections, each focusing on different
 ⚫ Explore the internals of Python's CPython implementation.  
 ⚫ Understand bytecode, memory management, and optimizations.  
 
-### 8️⃣ [**Zen and the Art of Python Programming 🎭✨**](Zen and the Art of Python Programming)  
+### 8️⃣ [**Zen and the Art of Python Programming 🎭✨**](The-Zen-Of-Python)  
 ⚪ Discover Python’s guiding philosophy by Tim Peters.  
 ⚪ Learn the principles that make Python code clean and readable.  
 
@@ -67,9 +66,9 @@ This repository is licensed under the **MIT License**. Feel free to use, modify,
 
 🚀 **Explore Python under the hood and unlock its true potential!** 🎯🔍  
 
----
+---  
 
 📌 **[View on GitHub](https://github.com/your-repository)**  
 
----
+---  
 
