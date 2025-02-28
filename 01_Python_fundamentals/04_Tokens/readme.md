@@ -3,7 +3,6 @@
 
 ---
 
-# **🔹 Tokens in Python: The Building Blocks of Code 🔍🔠**  
 Python processes each line of code by **breaking it down** into smaller components called **tokens**. These tokens form the **foundation** of Python syntax, allowing the interpreter to **understand and execute** the code correctly. 🎯  
 
 ---
