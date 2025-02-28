@@ -1,4 +1,4 @@
-# **🚀 Python Keywords: The Core of Python Syntax 🎯**
+## **🚀 Python Keywords: The Core of Python Syntax 🎯**
 
 ## **🔹 What Are Keywords in Python?**
 Keywords are **reserved words** in Python that have **predefined meanings** and **cannot** be used as variable names, function names, or identifiers. They define Python's syntax and structure, making them essential for writing correct programs.
