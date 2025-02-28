@@ -2,7 +2,7 @@
 
 ---
 
-# **Character Sets and Encoding in Python 🌍📜🔠**  
+# ** 🌍Character Sets and Encoding in Python 📜🔠**  
 Encoding is a **critical** aspect of Python programming, ensuring that text is properly stored, read, and displayed across different platforms, languages, and environments. Python's Unicode support makes it a powerful language for **multilingual applications**. 🌎✨  
 
 ---
