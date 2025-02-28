@@ -1,4 +1,4 @@
-**📌 Mastering Lines & Indentation in Python 🐍**
+# **📌 Mastering Lines & Indentation in Python 🐍**
 
 In this section, we dive deep into how Python manages lines and indentation—an essential concept that dictates code structure and readability.
 
