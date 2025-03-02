@@ -1,5 +1,5 @@
 
-## 🏆.**Mastering Delimiters in Python**.🔢💡  
+# 🏆.**Mastering Delimiters in Python**.🔢💡  
 ---
 ## 📌 **What Are Delimiters?**  
 
