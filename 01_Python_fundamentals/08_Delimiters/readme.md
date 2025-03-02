@@ -1,5 +1,5 @@
 # 🏆 🚀🔥 **MASTERING DELIMITERS IN PYTHON** 🔥🚀  
-
+---
 ## 📌 **WHAT ARE DELIMITERS?**  
 Delimiters are special characters or symbols used to structure and organize Python code. They play a vital role in grouping expressions, defining data structures, and separating elements within Python statements. Understanding delimiters is essential for writing efficient, readable, and bug-free Python programs. 🧠✨  
 
