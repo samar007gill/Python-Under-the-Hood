@@ -1,8 +1,7 @@
 
 
 ---
-
-# 🏆 **Mastering Delimiters in Python** 🔢💡  
+# 🏆 **🔥 MASTERING DELIMITERS IN PYTHON 🔥** 🔢💡  
 ---
 ## 📌 **What Are Delimiters?**  
 
