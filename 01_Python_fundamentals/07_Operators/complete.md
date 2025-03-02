@@ -1,6 +1,7 @@
 # 🎯 **MASTERING PYTHON OPERATORS - ULTIMATE GUIDE** 🚀
 
 ## 🔢 **1. ARITHMETIC OPERATORS ➗➖➕✖️⚡**
+---
 Arithmetic operators handle fundamental calculations efficiently. 🏆
 
 - **➕ ADDITION (`+`)**: Computes the sum of two values. 💰
@@ -34,6 +35,7 @@ Arithmetic operators handle fundamental calculations efficiently. 🏆
 ---
 
 ## ⚖️ **2. COMPARISON OPERATORS 🔍**
+---
 These operators compare values and return boolean results (`True` or `False`). 🎭
 
 - **✅ EQUAL (`==`)**: True if values are identical. 🎯
@@ -54,6 +56,7 @@ print(x == y, x != y, x < y, x > y, x <= y, x >= y)
 ---
 
 ## ✍️ **3. ASSIGNMENT OPERATORS 📜**
+---
 These operators assign and update values dynamically. 🔄
 
 - **📝 `=`** DIRECT ASSIGNMENT ✅
@@ -78,6 +81,7 @@ print(x)
 ---
 
 ## 🧠 **4. LOGICAL OPERATORS 🔗**
+---
 Logical operators facilitate complex condition handling. 🛠️
 
 - **🤝 AND (`and`)**: True if both conditions are True. ✅✅
