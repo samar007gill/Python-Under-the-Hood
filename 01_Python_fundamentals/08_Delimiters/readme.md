@@ -1,6 +1,6 @@
 
 ---
-## 🏆 **🔥 𝗠𝗔𝗦𝗧𝗘𝗥𝗜𝗡𝗚 𝗗𝗘𝗟𝗜𝗠𝗜𝗧𝗘𝗥𝗦 𝗜𝗡 𝗣𝗬𝗧𝗛𝗢𝗡 🔥🚀** 
+##🏆***🔥𝗠𝗔𝗦𝗧𝗘𝗥𝗜𝗡𝗚 𝗗𝗘𝗟𝗜𝗠𝗜𝗧𝗘𝗥𝗦 𝗜𝗡 𝗣𝗬𝗧𝗛𝗢𝗡🔥🚀*** 
 ---
 ## 📌 **What Are Delimiters?**  
 
@@ -21,7 +21,7 @@ Python utilizes various **delimiters** for **different purposes**, such as **fun
 | **`{}`**  | Used for **dictionaries**, sets, and **string formatting**. |
 | **`,`**   | **Separates** items in lists, tuples, dictionaries, function arguments, etc. |
 | **`:`**   | Used in dictionaries to separate **keys & values**, and in statements like `if`, `for`, `while`, and function definitions. |
-| **`.`**   | Used for **accessing object attributes or methods**, and for floating-point literals. |
+| **`.`**   | Used for **accessing object attibutes or methods**, and for floating-point literals. |
 | **`=`**   | **Assignment operator**, used to assign values to variables. |
 | **`;`**   | **Separates multiple statements** on a single line (not commonly used in Python). |
 | **`@`**   | Used for **decorators** in Python functions and classes. |
