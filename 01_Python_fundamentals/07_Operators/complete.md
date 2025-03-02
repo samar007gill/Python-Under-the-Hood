@@ -111,3 +111,141 @@ These logical operators allow efficient decision-making in programming workflows
 
 ---
 
+Here’s your **bold, structured, and highly readable** version with **better formatting, spacing, and visibility**. 🚀  
+
+---
+
+# **🔢 5. BITWISE OPERATORS**  
+
+Bitwise operators **perform bit-level operations** on operands.  
+
+### **🔗 & (AND) - Bitwise AND**  
+✅ **Example:** `5 & 3` ➡️ **Results in `1`**  
+💡 **Use Case:** Used for **masking bits**.  
+
+### **🚪 | (OR) - Bitwise OR**  
+✅ **Example:** `5 | 3` ➡️ **Results in `7`**  
+💡 **Use Case:** **Setting specific bits**.  
+
+### **⚡ ^ (XOR) - Bitwise XOR**  
+✅ **Example:** `5 ^ 3` ➡️ **Results in `6`**  
+💡 **Use Case:** **Toggling bits**.  
+
+### **🚫 ~ (NOT) - Bitwise NOT**  
+✅ **Example:** `~5` ➡️ **Results in `-6`**  
+💡 **Use Case:** **Flipping bits**.  
+
+### **⬅️ << (LEFT SHIFT) - Bitwise Left Shift**  
+✅ **Example:** `5 << 1` ➡️ **Results in `10`**  
+💡 **Use Case:** **Multiplying by powers of two**.  
+
+### **➡️ >> (RIGHT SHIFT) - Bitwise Right Shift**  
+✅ **Example:** `5 >> 1` ➡️ **Results in `2`**  
+💡 **Use Case:** **Dividing by powers of two**.  
+
+---
+
+## **📌 Detailed Example:**
+```python
+a = 5  # Binary: 0101
+b = 3  # Binary: 0011
+
+bitwise_and = a & b   # 🔗 0101 & 0011 -> 0001 (1)
+bitwise_or = a | b    # 🚪 0101 | 0011 -> 0111 (7)
+bitwise_xor = a ^ b   # ⚡ 0101 ^ 0011 -> 0110 (6)
+bitwise_not = ~a      # 🚫 ~0101 -> 1010 (-6 in signed binary)
+left_shift = a << 1   # ⬅️ 0101 << 1 -> 1010 (10)
+right_shift = a >> 1  # ➡️ 0101 >> 1 -> 0010 (2)
+
+print(bitwise_and, bitwise_or, bitwise_xor, bitwise_not, left_shift, right_shift)
+```
+
+---
+
+# **🔍 6. MEMBERSHIP OPERATORS**  
+
+Membership operators **test if a value is in a sequence or not**.  
+
+### **👀 `in` - Membership Check**  
+✅ **Example:** `3 in [1, 2, 3]` ➡️ **Results in `True`**  
+💡 **Use Case:** **Checking if an item exists in a list or string**.  
+
+### **🚫👀 `not in` - Non-Membership Check**  
+✅ **Example:** `4 not in [1, 2, 3]` ➡️ **Results in `True`**  
+💡 **Use Case:** **Validating absence of an item in a collection**.  
+
+---
+
+## **📌 Detailed Example:**
+```python
+lst = [1, 2, 3, 4, 5]
+
+check_in = 3 in lst  # 👀 True
+check_not_in = 6 not in lst  # 🚫👀 True
+
+print(check_in, check_not_in)
+```
+
+---
+
+# **🆔 7. IDENTITY OPERATORS**  
+
+Identity operators **compare memory locations** of two objects.  
+
+### **👯 `is` - Identity Check**  
+✅ **Example:** `a is b` ➡️ **Results in `True`** if `a` and `b` reference the same object.  
+💡 **Use Case:** **Checking for singleton objects like `None`**.  
+
+### **🚫👯 `is not` - Identity Mismatch Check**  
+✅ **Example:** `a is not b` ➡️ **Results in `True`** if `a` and `b` reference **different objects**.  
+💡 **Use Case:** **Ensuring two objects are distinct**.  
+
+---
+
+## **📌 Detailed Example:**
+```python
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+identity_check = a is b  # 👯 False (Different objects)
+identity_check_same = a is c  # 👯 True (Same object)
+identity_check_not = a is not b  # 🚫👯 True (Different objects)
+
+print(identity_check, identity_check_same, identity_check_not)
+```
+
+---
+
+# **🎯 8. OPERATOR PRECEDENCE**  
+
+Operator precedence **determines the order in which operations are evaluated**.  
+
+## **📊 Order of Precedence (Highest to Lowest):**
+1. **🟢 `()` - Parentheses**  
+2. **🌟 `**` - Exponentiation**  
+3. **➕➖ `+x, -x, ~x` - Unary Operators**  
+4. **✖️➗ `*, /, %, //` - Multiplication, Division, Modulus, Floor Division**  
+5. **➕➖ `+, -` - Addition, Subtraction**  
+6. **⬅️➡️ `>>, <<` - Right and Left Shift**  
+7. **🔗 `&` - Bitwise AND**  
+8. **⚡🚪 `^, |` - Bitwise XOR, OR**  
+9. **📏 `<=, <, >, >=` - Comparisons**  
+10. **✅❌ `==, !=` - Equality**  
+11. **🆔 `is, is not` - Identity Operators**  
+12. **🔍 `in, not in` - Membership Operators**  
+13. **🚫🚪🤝 `not, or, and` - Logical Operators**  
+
+---
+
+
+## **📌 Detailed Example:**
+```python
+result = 2 + 3 * 5 ** 2  # 🌟 Exponent first, then ✖️ Multiplication, then ➕ Addition
+print(result)  # 2 + 3 * 25 -> 2 + 75 -> 77
+
+check = (5 > 3) and (10 != 2)
+print(check)  # ✅ True and ✅ True -> True
+```
+
+---
