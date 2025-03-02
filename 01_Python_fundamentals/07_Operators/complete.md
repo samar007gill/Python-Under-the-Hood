@@ -238,7 +238,31 @@ Operator precedence **determines the order in which operations are evaluated**.
 
 ---
 
+---
 
+## 🏆 **Python Operator Precedence Table** 🎯  
+
+| 🥇 **Precedence Level** | **🔢 Operator**                 | **📖 Description**                               | **📌 Example**                                      |
+|----------------------|--------------------------------|---------------------------------------------|--------------------------------------------------|
+| **1️⃣ (Highest)** | `()`                            | **Parentheses** – Ensures priority        | `(3 + 2) * 4` ➡️ Parentheses ensure **addition first** |
+| **2️⃣**  | `**`                            | **Exponentiation** – Power operation      | `2 ** 3` 🌟 → **8** (2 raised to 3)            |
+| **3️⃣**  | `+x, -x, ~x`                   | **Unary plus, minus, bitwise NOT**        | `-3` ➕ Unary minus, `~5` 🚫 Bitwise NOT        |
+| **4️⃣**  | `*, /, %, //`                  | **Multiplication, Division, Modulus, Floor Division** | `10 * 2 / 5` ✖️ Multiplication first, then Division |
+| **5️⃣**  | `+, -`                          | **Addition, Subtraction**                 | `5 + 2 - 3` ➕ Addition, then Subtraction       |
+| **6️⃣**  | `<<, >>`                        | **Bitwise Left Shift, Right Shift**       | `8 >> 2` ➡️ Right shift by 2 (binary shifting)  |
+| **7️⃣**  | `&`                             | **Bitwise AND**                           | `5 & 3` 🔗 **Bitwise AND operation**            |
+| **8️⃣**  | `^, |`                          | **Bitwise XOR, OR**                      | `5 ^ 3` ⚡ Bitwise XOR, `5 | 3` 🚪 Bitwise OR    |
+| **9️⃣**  | `<, <=, >, >=`                  | **Comparison Operators**                  | `5 > 3` 📏 Greater than                        |
+| **🔟**  | `==, !=`                        | **Equality Operators**                    | `5 == 5` ✅ **Equality check**                  |
+| **1️⃣1️⃣** | `is, is not`                    | **Identity Operators** – Same object?     | `a is b` 🆔 **Checks if same object reference**  |
+| **1️⃣2️⃣** | `in, not in`                    | **Membership Operators** – Exists in?     | `'a' in 'apple'` 🔍 Membership check          |
+| **1️⃣3️⃣** | `not`                           | **Logical NOT**                           | `not True` 🚫 Reverses truth value             |
+| **1️⃣4️⃣** | `and`                           | **Logical AND** – Both conditions True?   | `True and False` 🤝 Both must be True          |
+| **1️⃣5️⃣** | `or`                            | **Logical OR** – At least one True?       | `True or False` 🚪 At least one must be True   |
+| **1️⃣6️⃣ (Lowest)** | `=, +=, -=, *=, /=, %=, **=, //=` | **Assignment Operators**                  | `a = 5`, `a += 3` 📝 Assigning values         |
+
+---
+---
 ## **📌 Detailed Example:**
 ```python
 result = 2 + 3 * 5 ** 2  # 🌟 Exponent first, then ✖️ Multiplication, then ➕ Addition
