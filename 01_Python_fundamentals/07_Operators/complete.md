@@ -1,6 +1,6 @@
 # 🎯 **MASTERING PYTHON OPERATORS - ULTIMATE GUIDE** 🚀
 
-## 🔢 **1. ARITHMETIC OPERATORS ⚡**
+## 🔢 **1. ARITHMETIC OPERATORS ⚡➕➖✖️➗**
 Arithmetic operators handle fundamental calculations efficiently. 🏆
 
 - **➕ ADDITION (`+`)**: Computes the sum of two values. 💰
