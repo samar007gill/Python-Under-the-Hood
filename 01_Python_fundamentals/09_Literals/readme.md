@@ -3,8 +3,10 @@
 ---
 
 # 🏆 **🚀💡 𝗠𝗔𝗦𝗧𝗘𝗥𝗜𝗡𝗚 𝗟𝗜𝗧𝗘𝗥𝗔𝗟𝗦 𝗜𝗡 𝗣𝗬𝗧𝗛𝗢𝗡 🔥🐍**  
+---
 
 ## 📌 **What Are Literals in Python?**  
+---
 A **literal** in Python is a fixed value directly represented in code. It can be a **number, string, boolean, collection (list, tuple, set, dictionary), or special types like None**. Literals are fundamental to defining variables and working with data efficiently.  
 
 Python supports **five major types of literals:**  
