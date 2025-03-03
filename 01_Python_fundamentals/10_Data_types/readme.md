@@ -1,4 +1,4 @@
-# 🚀✨Python Primitive Data Types: The Core of Python Programming 🎯
+#🚀✨Python Primitive Data Types: The Core of Python Programming🎯
 
 Understanding Python's **primitive data types** is crucial for mastering the language. These fundamental elements dictate how **data is stored, manipulated, and processed**. In Python, **everything is an object**, and each object has a specific type that defines its **behavior, operations, and memory allocation**.
 
