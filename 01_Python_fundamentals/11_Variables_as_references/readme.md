@@ -2,7 +2,7 @@
 ---
 
 # **🔗🚀 Python Variables & References: A Deep Dive Into Memory Management 🧠💡**
-
+---
 ## **🔍 Understanding References in Python**
 In Python, a **reference** is an **abstract label** that points to an object stored in memory. Unlike low-level languages where variables store values directly, Python variables act as **references to dynamically allocated objects** in the **heap memory**. 🏗️💾
 
