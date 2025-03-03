@@ -146,3 +146,152 @@ else:
 ```
 
 ---
+## 🔥 6. Nested If Statements 🏗️
+
+**What is a Nested If?**
+A **nested if** statement is when one `if` statement is placed inside another. This helps in checking multiple conditions sequentially.
+
+### 💡 Example:
+```python
+age = 20
+driver_license = True
+
+if age >= 18:
+    if driver_license:
+        print("🚗 You are allowed to drive!")
+    else:
+        print("❌ You need a driver's license!")
+else:
+    print("❌ You are too young to drive!")
+```
+**Explanation:** First, Python checks if the person is **18 or older**. If true, it then checks if they have a **driver’s license** before allowing them to drive. ✅
+
+---
+
+## 🎭 7. Using `elif` for Multiple Conditions 🔄
+
+**Why Use `elif`?**
+When there are **multiple conditions**, `elif` (short for "else if") helps check additional cases **without repeating `if` statements**.
+
+### 📌 Example:
+```python
+score = 85
+
+if score >= 90:
+    print("🏆 Excellent!")
+elif score >= 75:
+    print("✅ Good job!")
+elif score >= 50:
+    print("⚠️ Keep improving!")
+else:
+    print("❌ You need more practice!")
+```
+**Explanation:** The program assigns different messages based on the score range. 🎯
+
+---
+
+## 🚦 8. Logical Operators (`and`, `or`, `not`) 🧠
+
+Python allows combining **multiple conditions** using logical operators:
+- **`and`** → All conditions must be `True`.
+- **`or`** → At least one condition must be `True`.
+- **`not`** → Reverses the result of a condition.
+
+### 🎯 Example:
+```python
+temp = 30
+humidity = 85
+
+if temp > 25 and humidity > 80:
+    print("🥵 It's hot and humid!")
+elif temp > 25 or humidity > 80:
+    print("🌤️ It's either hot or humid!")
+else:
+    print("❄️ The weather is comfortable!")
+```
+**Explanation:** The `and` condition requires both `temp` and `humidity` to be high, while `or` only needs one of them. ☀️
+
+---
+
+## 🎭 9. Short-Circuit Evaluation ⚡
+
+Python **stops evaluating** a condition as soon as the result is determined! 🚀
+
+### 🔹 Example with `or`:
+```python
+def check():
+    print("Function called!")
+    return True
+
+if True or check():
+    print("✅ Condition met!")
+```
+**Output:**
+```
+✅ Condition met!
+```
+💡 **Explanation:** Since `True or anything` is always `True`, Python **never calls the function** (`check()`). 🔥
+
+---
+
+## 🛠️ 10. Ternary Conditional Operator (`if` in one line) 🎯
+
+Python allows writing **short, concise conditions** using a **ternary operator**.
+
+### 💡 Example:
+```python
+age = 17
+message = "✅ You can vote!" if age >= 18 else "❌ Too young to vote!"
+print(message)
+```
+**Output:** `❌ Too young to vote!`
+
+✅ **Why Use It?**
+- Makes code **shorter & cleaner**.
+- Useful for **simple conditions**.
+
+---
+
+## 📌 11. Pass Statement (For Future Code) ⏳
+
+Python uses `pass` as a **placeholder** when a block is required but **not yet implemented**.
+
+### 🎯 Example:
+```python
+age = 20
+
+if age >= 18:
+    pass  # TODO: Add logic later
+else:
+    print("❌ You are too young!")
+```
+💡 **Why Use `pass`?**
+- Prevents **syntax errors** when writing unfinished code.
+- Helps in **structuring** a program before full implementation.
+
+---
+
+## 🔄 12. Using `match-case` (Python 3.10+) 🎭
+
+Python **3.10 and later** introduced `match-case`, which is a cleaner alternative to `if-elif` chains! 🚀
+
+### 🏆 Example:
+```python
+def get_day_name(day):
+    match day:
+        case 1:
+            return "Monday"
+        case 2:
+            return "Tuesday"
+        case 3:
+            return "Wednesday"
+        case _:
+            return "Invalid Day"
+
+print(get_day_name(2))  # Output: "Tuesday"
+```
+✅ **Why Use It?**
+- Cleaner than multiple `if-elif` statements.
+- Improves readability and maintainability. 🔥
+
+---
