@@ -149,4 +149,205 @@ print(type(num3))  # Output: <class 'complex'>
 ```
 
 ---
+---
 
+---
+
+# **9️⃣ Integer Numbers 🏛️➕➖✖️➗**  
+Python’s `int` type supports **arbitrary-precision arithmetic** (only limited by memory), and can be used in **scientific computing, cryptography, and data processing**.
+
+### **Multiple Number Bases Supported**:  
+🔹 **Decimal (Base-10)**: `3493`  
+🔹 **Binary (Base-2)**: `0b10101` → `21`  
+🔹 **Octal (Base-8)**: `0o6645` → `3429`  
+🔹 **Hexadecimal (Base-16)**: `0xDA5` → `3493`  
+
+🔍 **Advanced Integer Operations**:  
+- **Bitwise Manipulation** (`&`, `|`, `^`, `~`, `<<`, `>>`)  
+- **Mathematical Operations** (`pow()`, `divmod()`, `abs()`)  
+- **Arbitrary-precision calculations**  
+
+### **Examples:**
+```python
+# Integer representation in different bases
+print(3493)         # Decimal
+print(0b10101)      # Binary (Output: 21)
+print(0o6645)       # Octal (Output: 3429)
+print(0xDA5)        # Hexadecimal (Output: 3493)
+
+# Advanced operations
+print(pow(2, 10))     # 2^10 (Output: 1024)
+print(divmod(10, 3))  # (Quotient, Remainder) -> Output: (3, 1)
+print(abs(-25))       # Absolute value -> Output: 25
+
+# Bitwise operations
+x, y = 0b1101, 0b1011
+print(x & y)  # Bitwise AND -> Output: 9
+print(x | y)  # Bitwise OR -> Output: 15
+print(x ^ y)  # Bitwise XOR -> Output: 6
+```
+
+---
+
+# **🔟 Floating-Point Numbers 🌊🧮**  
+Python’s `float` type follows the **IEEE 754 standard** (double-precision floating-point arithmetic).  
+
+### **Key Features**:  
+✅ **Scientific Notation**: `1.23e4 == 12300.0`  
+✅ **Infinity & NaN Support**: `float('inf')`, `float('-inf')`, `float('nan')`  
+✅ **Floating-Point Precision Issues**  
+
+### **Examples:**
+```python
+import math
+from decimal import Decimal
+
+# Standard float examples
+print(3.14, 1e3, 2.5e-2)  # Output: 3.14, 1000.0, 0.025
+
+# Special floating-point values
+print(float('inf'))   # Infinity
+print(float('-inf'))  # Negative Infinity
+print(float('nan'))   # Not-a-Number (NaN)
+
+# Precision issue in floating points
+print(0.1 + 0.2)  # Output: 0.30000000000000004 (Precision issue)
+
+# Fixing precision issues using Decimal
+print(Decimal('0.1') + Decimal('0.2'))  # Output: 0.3 (Corrected)
+```
+
+---
+
+# **1️⃣1️⃣ Complex Numbers 🌀🔢**  
+Python **natively supports complex numbers** using `a + bj` notation.  
+
+### **Key Features**:  
+✅ **Real & Imaginary Parts** (`z.real`, `z.imag`)  
+✅ **Magnitude & Conjugates** (`abs(z)`, `z.conjugate()`)  
+✅ **Operations using `cmath` module**  
+
+### **Examples:**
+```python
+import cmath
+
+z = 3 + 4j
+print(z.real, z.imag)  # Output: 3.0 4.0
+
+# Magnitude (Modulus)
+print(abs(z))  # Output: 5.0
+
+# Complex exponential function
+print(cmath.exp(1j * cmath.pi))  # Euler’s identity: e^(iπ) = -1
+
+# Square root of negative numbers
+print(cmath.sqrt(-16))  # Output: 4j
+```
+
+---
+
+# **1️⃣2️⃣ Underscores in Numeric Literals 🔍🔢**  
+Introduced in **Python 3.6**, underscores (`_`) improve readability in large numbers.
+
+### **Use Cases**:  
+✅ **Readable large numbers**: `1_000_000_000`  
+✅ **Hexadecimal memory addresses**: `0xDEAD_BEEF`  
+✅ **Binary machine code**: `0b1101_0101`  
+
+### **Examples:**
+```python
+num = 1_000_000_000  # Equivalent to 1000000000
+hex_val = 0xDEAD_BEEF  # Readable hex representation
+bin_val = 0b1101_0101  # Readable binary representation
+
+print(num, hex_val, bin_val)
+```
+
+---
+
+# **1️⃣3️⃣ String Data Type 📜📝**  
+Python **strings (`str`) are immutable Unicode sequences**.
+
+### **Advanced String Techniques**:  
+✅ **Multiline Strings** (`""" """`)  
+✅ **Raw Strings (`r"..."`)** → Used for regex & file paths  
+✅ **String Interpolation (`f-strings`)**  
+
+### **Examples:**
+```python
+# Multi-line string
+multi_line = """This
+is
+a multi-line string."""
+print(multi_line)
+
+# Raw String (useful for file paths and regex)
+path = r"C:\Users\Samar\Documents"
+print(path)  # Output: C:\Users\Samar\Documents
+
+# f-strings for dynamic formatting
+name = "Samar"
+age = 25
+print(f"My name is {name} and I am {age} years old.")
+```
+
+---
+
+# **1️⃣4️⃣ Boolean Data Type 🎭💡**  
+Python's `bool` type represents **binary truth values** (`True` or `False`).  
+
+### **Boolean Behavior**:  
+✅ **`True` is equivalent to `1`**  
+✅ **`False` is equivalent to `0`**  
+✅ **Booleans can be used in arithmetic**  
+
+### **Examples:**
+```python
+is_python_fun = True
+print(type(is_python_fun))  # Output: <class 'bool'>
+
+# Boolean arithmetic
+print(True + True)   # Output: 2
+print(False * 10)    # Output: 0
+print(True * 5 - 3)  # Output: 2
+```
+
+---
+
+# **1️⃣5️⃣ Logical Operations ⚖️🤖**  
+Logical operators are essential for **control flow, AI, and decision-making systems**.
+
+### **Logical Operators**:  
+✅ **`and`** → True if **both** values are True  
+✅ **`or`** → True if **at least one** is True  
+✅ **`not`** → Inverts the truth value  
+
+### **Examples:**
+```python
+a, b = True, False
+
+print(a and b)  # Output: False
+print(a or b)   # Output: True
+print(not a)    # Output: False
+
+# Short-circuit behavior
+print(5 > 3 and "Hello")  # Output: "Hello"
+print(False or 42)        # Output: 42
+```
+
+---
+
+# **1️⃣6️⃣ Primitive Data Types Overview 🧩🚀**  
+### **Python’s Core Data Types:**
+| **Data Type** | **Description** | **Example** |
+|--------------|----------------|------------|
+| `int`       | Whole numbers | `42`, `-7` |
+| `float`     | Decimal numbers | `3.14`, `-2.5e2` |
+| `complex`   | Real & imaginary | `3 + 4j` |
+| `str`       | Text data | `"Python"`, `'Data'` |
+| `bool`      | Boolean values | `True`, `False` |
+
+---
+
+# **🎯 Conclusion: Becoming a Python Master 🧠💡**  
+🚀 **Master these types to write efficient Python code!**
