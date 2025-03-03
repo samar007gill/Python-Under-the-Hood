@@ -1,61 +1,60 @@
-
-# 🗳️ Voting Eligibility Check
+# ✅ Voting Eligibility Check
 def check_voting_eligibility(age):
     if age >= 18:
-        print("🗳️ You meet the legal voting age requirement! Exercise your right to vote responsibly.")
+        print("✔️ You are eligible to vote! Participate in shaping the future.")
     else:
-        print("🚫 Sorry, you are too young to vote. Stay informed and be ready for future elections.")
+        print("⛔ You are not old enough to vote yet. Stay informed for upcoming elections.")
 
-# 🎟️ Admission Fee Calculator
+# 🎫 Admission Fee Calculator
 def calculate_admission_fee(age):
     if age < 4:
         price = 0
-        message = "🎉 Enjoy free admission! Have a great time!"
+        message = "🎈 Free entry! Have a fantastic time!"
     elif 4 <= age < 18:
         price = 25
-        message = "💰 Your admission fee is $25. Don't forget to grab a snack!"
+        message = "💵 Your admission fee is $25. Enjoy your visit!"
     else:
         price = 40
-        message = "🎟️ Your admission fee is $40. Have an amazing experience!"
+        message = "🎟️ Your admission fee is $40. Hope you have a great experience!"
     
-    print(f"🛎️ Admission Cost: ${price}")
+    print(f"💰 Admission Cost: ${price}")
     print(message)
 
-# 📚 Student Grade Evaluation System
+# 📊 Student Grade Evaluation System
 def evaluate_student_grade(marks):
     if marks >= 90:
         grade = "A"
-        feedback = "🎉 Excellent performance! Keep up the outstanding work!"
+        feedback = "🏅 Outstanding performance! Keep up the excellent work!"
     elif 75 <= marks < 90:
         grade = "B"
-        feedback = "👍 Well done! A little more effort, and you’ll reach the top!"
+        feedback = "📈 Good job! Keep pushing for even better results!"
     elif 60 <= marks < 75:
         grade = "C"
-        feedback = "👌 Good job! Consider revising key concepts to improve further."
+        feedback = "📚 Decent effort! A little more practice will make a big difference."
     else:
         grade = "F"
-        feedback = "📚 You need improvement. Focus on practice and seek help if needed."
-    
-    print(f"📖 Your Grade: {grade}")
+        feedback = "🚀 Keep learning! Focus on key areas to improve."
+
+    print(f"📝 Your Grade: {grade}")
     print(feedback)
 
-# 🎵 Mood-Based Music Recommendation
+# 🎶 Mood-Based Music Recommendation
 def recommend_music(mood):
     mood = mood.lower()
     if mood == "happy":
-        suggestion = "🎤 How about some upbeat pop music to keep your spirits high?"
+        suggestion = "🎷 Try some lively jazz to keep your mood lifted!"
     elif mood == "sad":
-        suggestion = "🎷 A dose of blues might help you embrace your emotions."
+        suggestion = "🎻 Classical music might be a great way to relax."
     elif mood == "energetic":
-        suggestion = "🎸 Rock music is your perfect companion for that burst of energy!"
+        suggestion = "🥁 Drum beats and electronic tunes are perfect for your energy!"
     elif mood == "relaxed":
-        suggestion = "🎹 Smooth jazz will set the perfect calm vibe."
+        suggestion = "🎵 Soft acoustic tracks will set a calming atmosphere."
     else:
-        suggestion = "🎧 Discover some new indie tracks and explore fresh sounds!"
-    
-    print(f"🎼 Mood-Based Recommendation: {suggestion}")
+        suggestion = "🎧 Explore some fresh sounds and new genres!"
 
-# 🚀 Function Calls with Sample Inputs
+    print(f"🎼 Music Suggestion: {suggestion}")
+
+# 🚀 Execute Functions with Sample Inputs
 if __name__ == "__main__":
     check_voting_eligibility(19)
     check_voting_eligibility(17)
